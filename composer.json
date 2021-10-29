@@ -15,7 +15,11 @@
             "registration.php"
         ],
         "psr-4": {
-            "Test\\": ""
+            "Test\\AddProductToCart\\": "",
+            "Test\\AddCheckoutStep\\": "",
+            "Test\\GuaranteeTerms\\": "",
+            "Test\\OfflineCustomer\\": "",
+            "Test\\Prefix\\\\": ""
         }
     }
 }

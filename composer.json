@@ -8,5 +8,7 @@
             "email": "romansit111@gmail.com"
         }
     ],
-    "require": {}
+    "require": {},
+    "minimum-stability": "dev"
+
 }

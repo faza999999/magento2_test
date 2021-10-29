@@ -12,11 +12,11 @@
     "minimum-stability": "dev",
     "autoload": {
         "files": [
-            "AddProductToCart/registration.php",
-            "AddCheckoutStep/registration.php",
-            "GuaranteeTerms/registration.php",
-            "OfflineCustomer/registration.php",
-            "Prefix/registration.php"
+            "Test/AddProductToCart/registration.php",
+            "Test/AddCheckoutStep/registration.php",
+            "Test/GuaranteeTerms/registration.php",
+            "Test/OfflineCustomer/registration.php",
+            "Test/Prefix/registration.php"
         ]
     }
 }

@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Test_OfflineCustomer::manager" title="Offline Customer" module="Test_OfflineCustomer" sortOrder="10" resource="Test_OfflineCustomer::manager" />
+        <add id="Test_OfflineCustomer::add_row" title="Offline Customer" module="Test_OfflineCustomer" sortOrder="20" parent="Test_OfflineCustomer::manager" action="grid/grid" resource="Test_OfflineCustomer::add_row"/>
+    </menu>
+</config>

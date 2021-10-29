@@ -16,7 +16,7 @@
             "AddCheckoutStep/registration.php",
             "GuaranteeTerms/registration.php",
             "OfflineCustomer/registration.php",
-            "Test/registration.php"
+            "Prefix/registration.php"
         ]
     }
 }

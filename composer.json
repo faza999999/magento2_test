@@ -1,0 +1,13 @@
+{
+    "name": "roman234234/test_magento2",
+    "description": "this test php code module",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Roman Sitdikov",
+            "email": "romansit111@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}

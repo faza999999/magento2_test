@@ -11,11 +11,22 @@
     "require": {},
     "minimum-stability": "dev",
     "autoload": {
-        "psr-4": {
-            "Test\\OfflineCustomer\\": ""
-        },
+        "exclude-from-classmap": [
+            "**/dev/**",
+            "**/update/**",
+            "**/Test/**"
+        ],
         "files": [
             "Test/OfflineCustomer/registration.php"
-        ]
+        ],
+        "psr-0": {
+            "": [
+                "app/code/",
+                "generated/code/"
+            ]
+        },
+        "psr-4": {
+            "Test\\OfflineCustomer\\": ""
+        }
     }
 }

@@ -12,18 +12,10 @@
     "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
-            "Test\\GuaranteeTerms\\": "",
-            "Test\\AddCheckoutStep\\": "",
-            "Test\\AddProductToCart\\": "",
-            "Test\\OfflineCustomer\\": "",
-            "Test\\Prefix\\": ""
+            "Test\\OfflineCustomer\\": ""
         },
         "files": [
-            "Test/AddProductToCart/registration.php",
-            "Test/AddCheckoutStep/registration.php",
-            "Test/GuaranteeTerms/registration.php",
-            "Test/OfflineCustomer/registration.php",
-            "Test/Prefix/registration.php"
+            "registration.php"
         ]
     }
 }

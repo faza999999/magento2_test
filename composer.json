@@ -17,7 +17,11 @@
             "**/Test/**"
         ],
         "files": [
-            "Test/OfflineCustomer/registration.php"
+            "Test/AddCheckoutStep/registration.php",
+            "Test/AddProductToCart/registration.php",
+            "Test/GuaranteeTerms/registration.php",
+            "Test/OfflineCustomer/registration.php",
+            "Test/Prefix/registration.php"
         ],
         "psr-0": {
             "": [
@@ -26,7 +30,11 @@
             ]
         },
         "psr-4": {
-            "Test\\OfflineCustomer\\": "Test/OfflineCustomer/"
+            "Test\\AddCheckoutStep\\": "Test/AddCheckoutStep/",
+            "Test\\AddProductToCart\\": "Test/AddProductToCart/",
+            "Test\\GuaranteeTerms\\": "Test/GuaranteeTerms/",
+            "Test\\OfflineCustomer\\": "Test/OfflineCustomer/",
+            "Test\\Prefix\\": "Test/Prefix/"
         }
     }
 }
